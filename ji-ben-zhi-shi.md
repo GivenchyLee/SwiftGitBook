@@ -1,11 +1,5 @@
 
 
----
-
-                        ![](http://resource.feng.com/resource/h034/h55/img201406121728330.png)
-
----
-
 
 
 
