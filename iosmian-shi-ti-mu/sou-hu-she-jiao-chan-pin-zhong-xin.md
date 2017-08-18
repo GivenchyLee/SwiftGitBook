@@ -15,9 +15,10 @@ imageView.center = self.view.cenger;
 
 ### 2.http和https的区别，https用了什么加密算法？
 
-
-
-### 3.判断单向链表中是否有环？
+1. https协议需要到ca申请证书，一般免费证书很少，需要交费。
+2. https是超文本传输协议，信息是明文传输，https则是具有安全性的ssl加密传输协议。
+3. http和https使用的是完全不同的连接方式，用的端口也不一样，前者是80，后者是443.
+4. http的连接很简单，是无状态的；https协议是有ssl+http协议构建的可进行加密传输、身份认证的网络，比http协议安全。
 
 
 
