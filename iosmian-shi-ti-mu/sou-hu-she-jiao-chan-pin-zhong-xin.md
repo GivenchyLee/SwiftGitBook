@@ -20,5 +20,17 @@ imageView.center = self.view.cenger;
 3. http和https使用的是完全不同的连接方式，用的端口也不一样，前者是80，后者是443.
 4. http的连接很简单，是无状态的；https协议是有ssl+http协议构建的可进行加密传输、身份认证的网络，比http协议安全。
 
+#### 3.Scoket连接和Http连接的区别
+
+HTTP协议：简单的对象访问协议，对应于应用层，http协议是基于TCP连接的
+
+tcp协议：对应于传输层
+
+ip协议：对应于网络层
+
+TCP/IP是传输层协议，主要解决数据如何在网络中传输；而HTTP是应用层协议，主要解决如何包装数据。
+
+Socket是对TCP/IP协议的封装，Scoket本身并不是协议，而是一个调用接口（API），通过Scoket，我们才能使用TCP/IP协议。
+
 
 
